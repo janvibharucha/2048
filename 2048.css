@@ -1,0 +1,161 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightsalmon;
+
+}
+
+hr{
+    width: 500px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+li{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+/* Updated CSS for the Game Over banner */
+.banner {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1e1e24;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+    z-index: 1; /* Ensure it's above other elements */
+}
+
+.banner-text {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-botton: 20px;
+}
+
+.banner-button {
+    background-color: #a42083;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Center the banner horizontally and vertically */
+#GameOver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh; /* Makes the body cover the entire viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+  
+
+#board{
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.x2{
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4{
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8{
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16{
+    background-color: #f59575;
+    color: white;
+}
+
+.x32{
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64{
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128{
+    background-color: #edce71;
+    color: white;
+}
+
+.x256{
+    background-color: #edcc63;
+    color: white;
+}
+
+.x512{
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024{
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048{
+    background-color: #ecc230;
+    color: white;
+}
+
+.x4096{
+    background-color: #fe3d3d;
+    color: white;
+}
+
+.x8192{
+    background-color: #ff2020;
+    color: white;
+}
